@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.aber.app-debug-38:/drawable-nodpi_sample_phone.jpg.flat",
+        "source": "com.aber.app-main-40:/drawable-nodpi/sample_phone.jpg"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.aber.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/drawable-nodpi_sample_aquaflask.jpg.flat",
+        "source": "com.aber.app-main-40:/drawable-nodpi/sample_aquaflask.jpg"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_activity_login.xml.flat",
+        "source": "com.aber.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_activity_image_search.xml.flat",
+        "source": "com.aber.app-main-40:/layout/activity_image_search.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.aber.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/menu_menu_main.xml.flat",
+        "source": "com.aber.app-main-40:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_dialog_reset_password.xml.flat",
+        "source": "com.aber.app-main-40:/layout/dialog_reset_password.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/drawable-nodpi_logo.png.flat",
+        "source": "com.aber.app-main-40:/drawable-nodpi/logo.png"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_activity_signup.xml.flat",
+        "source": "com.aber.app-main-40:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_item_post.xml.flat",
+        "source": "com.aber.app-main-40:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/drawable_ic_avatar.xml.flat",
+        "source": "com.aber.app-main-40:/drawable/ic_avatar.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/drawable-nodpi_sample_wallet.jpg.flat",
+        "source": "com.aber.app-main-40:/drawable-nodpi/sample_wallet.jpg"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/layout_item_match.xml.flat",
+        "source": "com.aber.app-main-40:/layout/item_match.xml"
+    },
+    {
+        "merged": "com.aber.app-debug-38:/drawable-nodpi_sample_tumbler.jpg.flat",
+        "source": "com.aber.app-main-40:/drawable-nodpi/sample_tumbler.jpg"
+    }
+]
