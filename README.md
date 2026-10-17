@@ -11,7 +11,7 @@ Built from the `ABER_HighFid.fig` design: login / sign-up, Lost and Found feeds,
    (e.g. a wallet / tumbler / phone / water-bottle photo), then they appear in the Photo Picker.
 
 ## The two features (minimum is 2)
-| Feature | What it does | Where the code is |
+| Feature | What it does |
 |---|---|---|
 | **1. Login & Sign-up** | Mobile or email accounts, show/hide password, validation (PH mobile format, email format, password rule, confirm match, terms checkbox, duplicate account), login errors (no account / wrong password), "Forgot Password?" reset (demo), stays logged in, log out. Passwords are stored as salted SHA-256 hashes. 
 | **2. Image Search** | Pick a photo; the app ranks the Lost/Found posts by similarity using (a) colour-histogram comparison and (b) Google ML Kit on-device image labels matched against each post's keywords. Shows detected labels and a % match bar. 
