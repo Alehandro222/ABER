@@ -18,31 +18,21 @@ Built from the `ABER_HighFid.fig` design: login / sign-up, Lost and Found feeds,
 
 Supporting screen: the Lost / Found feed (`ui/MainActivity.kt`, `ui/PostAdapter.kt`, data in `data/PostRepository.kt`) with a text filter.
 
-### SDG alignment (adjust the wording to your team's own reasoning)
-- **SDG 11 - Sustainable Cities and Communities:** a community lost-and-found tool for Baguio City makes public places (Burnham Park, Session Road) easier and safer to live in.
+### SDG alignment
+- **SDG 11 - Sustainable Cities and Communities:** a community lost-and-found tool for Baguio City makes public places such as Burnham Park and Session Road easier and safer to live in.
 - **SDG 12 - Responsible Consumption and Production:** getting lost phones, wallets and tumblers back to their owners keeps useful items in use instead of being replaced.
-- **SDG 16 - Peace, Justice and Strong Institutions:** accounts with validated sign-up make claims traceable, and found items point to the police station where they can be claimed ("For Claiming").
+- **SDG 16 - Peace, Justice and Strong Institutions:** accounts with validated sign-up make claims traceable, and found items point to the police station where they can be claimed.
 - Image Search is the innovative part: owners often cannot describe their item in words, so they can find it by photo.
 
-## Video checklist (mandatory: "no recording equals no score")
+## Video checklist
 Record the emulator screen (Android Studio's Running Devices > record icon, or any screen recorder), with audio narration of each feature.
 1. **Sign up:** show the errors first (empty fields, bad number `0123`, weak password, mismatched confirm, unchecked terms), toggle the eye icon, switch to "Sign up with email", then create the account.
 2. **Log in / log out:** log out from the top-right menu, try a wrong password, a number with no account, then a correct login. Show "Login with email" and "Forgot Password?".
 3. **Image search:** open the Lost / Found tabs briefly, tap **Image search**, choose a wallet photo -> the wallet post is "Best match"; choose a phone photo -> the phone post wins. Point at the "Detected:" line.
-4. Say your team's names and the SDGs in the video, and upload with the link set to public ("anyone with the link").
+4. Say your team's names and the SDGs in the video, and upload with the link set to public.
 
-## Semantic issues to point out (the activity allows this if you explain them)
+## Semantic issues to point out
 - **Photos of items not in the sample posts** give low percentages: the matcher only compares against the 4 sample posts, and colour similarity is a rough signal (a brown wallet and a brown table look alike).
 - **Reset password** does not verify ownership (no SMS/email server), so anyone with the phone could reset it. A real app would send a one-time code.
 - **Accounts live on one phone only** (SharedPreferences). Another device cannot log in with them.
 - The "Date found" for the phone post is *October 10, 2026* here; the Figma says Oct 22, 2026, which is after the app's "today".
-
-## Project map
-```
-app/src/main/java/com/aber/app/
-  data/    User, UserStore (accounts), Post, PostRepository (sample posts)
-  ui/      LoginActivity, SignUpActivity, MainActivity, ImageSearchActivity, adapters, AuthHelpers
-  search/  ImageMatcher (histogram + label scoring)
-  util/    Validators
-app/src/main/res/  layouts (activity_*.xml, item_*.xml), strings, colours, theme, drawables (logo + sample photos from the Figma)
-```
