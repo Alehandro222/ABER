@@ -13,10 +13,9 @@ Built from the `ABER_HighFid.fig` design: login / sign-up, Lost and Found feeds,
 ## The two features (minimum is 2)
 | Feature | What it does | Where the code is |
 |---|---|---|
-| **1. Login & Sign-up** | Mobile or email accounts, show/hide password, validation (PH mobile format, email format, password rule, confirm match, terms checkbox, duplicate account), login errors (no account / wrong password), "Forgot Password?" reset (demo), stays logged in, log out. Passwords are stored as salted SHA-256 hashes. | `ui/LoginActivity.kt`, `ui/SignUpActivity.kt`, `data/UserStore.kt`, `util/Validators.kt` |
-| **2. Image Search** | Pick a photo; the app ranks the Lost/Found posts by similarity using (a) colour-histogram comparison and (b) Google ML Kit on-device image labels matched against each post's keywords. Shows detected labels and a % match bar. | `ui/ImageSearchActivity.kt`, `search/ImageMatcher.kt`, `ui/MatchAdapter.kt` |
+| **1. Login & Sign-up** | Mobile or email accounts, show/hide password, validation (PH mobile format, email format, password rule, confirm match, terms checkbox, duplicate account), login errors (no account / wrong password), "Forgot Password?" reset (demo), stays logged in, log out. Passwords are stored as salted SHA-256 hashes. 
+| **2. Image Search** | Pick a photo; the app ranks the Lost/Found posts by similarity using (a) colour-histogram comparison and (b) Google ML Kit on-device image labels matched against each post's keywords. Shows detected labels and a % match bar. 
 
-Supporting screen: the Lost / Found feed (`ui/MainActivity.kt`, `ui/PostAdapter.kt`, data in `data/PostRepository.kt`) with a text filter.
 
 ### SDG alignment
 - **SDG 11 - Sustainable Cities and Communities:** a community lost-and-found tool for Baguio City makes public places such as Burnham Park and Session Road easier and safer to live in.
