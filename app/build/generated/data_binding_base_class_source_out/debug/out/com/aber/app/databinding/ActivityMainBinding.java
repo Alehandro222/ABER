@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.aber.app.R;
@@ -34,6 +35,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RecyclerView rvPosts;
 
   @NonNull
+  public final SwipeRefreshLayout swipeRefresh;
+
+  @NonNull
   public final TabLayout tabs;
 
   @NonNull
@@ -44,12 +48,13 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
       @NonNull TextInputEditText etSearch, @NonNull ExtendedFloatingActionButton fabImageSearch,
-      @NonNull RecyclerView rvPosts, @NonNull TabLayout tabs, @NonNull MaterialToolbar toolbar,
-      @NonNull TextView tvEmpty) {
+      @NonNull RecyclerView rvPosts, @NonNull SwipeRefreshLayout swipeRefresh,
+      @NonNull TabLayout tabs, @NonNull MaterialToolbar toolbar, @NonNull TextView tvEmpty) {
     this.rootView = rootView;
     this.etSearch = etSearch;
     this.fabImageSearch = fabImageSearch;
     this.rvPosts = rvPosts;
+    this.swipeRefresh = swipeRefresh;
     this.tabs = tabs;
     this.toolbar = toolbar;
     this.tvEmpty = tvEmpty;
@@ -100,6 +105,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swipeRefresh;
+      SwipeRefreshLayout swipeRefresh = ViewBindings.findChildViewById(rootView, id);
+      if (swipeRefresh == null) {
+        break missingId;
+      }
+
       id = R.id.tabs;
       TabLayout tabs = ViewBindings.findChildViewById(rootView, id);
       if (tabs == null) {
@@ -119,7 +130,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((CoordinatorLayout) rootView, etSearch, fabImageSearch,
-          rvPosts, tabs, toolbar, tvEmpty);
+          rvPosts, swipeRefresh, tabs, toolbar, tvEmpty);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

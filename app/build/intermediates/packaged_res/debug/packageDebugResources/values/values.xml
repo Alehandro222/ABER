@@ -73,7 +73,7 @@
     <string name="tag_found">Found</string>
     <string name="tag_lost">Lost</string>
     <string name="welcome_new">Account created. Welcome!</string>
-    <style name="Theme.ABER" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.ABER" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/aber_blue</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorSecondary">@color/aber_yellow</item>

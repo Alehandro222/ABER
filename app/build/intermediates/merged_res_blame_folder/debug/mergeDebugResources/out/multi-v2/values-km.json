@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.aber.app-mergeDebugResources-36:/values-km/values-km.xml",
+            "outputFile": "com.aber.app-mergeDebugResources-37:/values-km/values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\8.13\\transforms\\9393a14fcff2728c08ccdd26870ffe4f\\transformed\\play-services-base-18.5.0\\res\\values-km\\values.xml",

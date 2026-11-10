@@ -15,6 +15,7 @@ drawable sample_aquaflask
 drawable sample_phone
 drawable sample_tumbler
 drawable sample_wallet
+id action_dark_mode
 id action_logout
 id btnCall
 id btnShare
@@ -40,6 +41,7 @@ id pb_score
 id progress
 id rv_matches
 id rv_posts
+id swipeRefresh
 id tabs
 id til_confirm
 id til_first_name

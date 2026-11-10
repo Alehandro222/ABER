@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.aber.app-mergeDebugResources-36:/values-hi/values-hi.xml",
+            "outputFile": "com.aber.app-mergeDebugResources-37:/values-hi/values-hi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\8.13\\transforms\\3c12d6900d063611d30e71f3550dfa0f\\transformed\\core-1.13.1\\res\\values-hi\\values-hi.xml",

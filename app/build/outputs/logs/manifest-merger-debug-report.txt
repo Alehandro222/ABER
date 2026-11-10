@@ -24,6 +24,7 @@ MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\Admi
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\Admin\.gradle\caches\8.13\transforms\99ea9fb7861bcec3be7d5c0bb1510bd1\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\Admin\.gradle\caches\8.13\transforms\38eb606ef89545093fa6a1312b697d15\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Admin\.gradle\caches\8.13\transforms\3786f574b22e0a29be80ed69585c31f3\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\855136d2a484c5b4e264807c550922d2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Admin\.gradle\caches\8.13\transforms\7c693d2513a3f3a9d905d95e3879af2d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.13\transforms\8ba6cd823b3dc46b169c89da8a6f2b83\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\0c1c91bfeba8de22f01dd0aae7e725f1\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
@@ -53,12 +54,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Admin\.
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\ccb0e31dd84dff248cb8bb57d7b1b751\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.13\transforms\26de5476dff7e395bbe69bdb20d23666\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\54566474913a0e798314a966c705f247\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Admin\.gradle\caches\8.13\transforms\a11f1d536b1c6693d33042b54cea18d4\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Admin\.gradle\caches\8.13\transforms\1be8331f62332cedd1762028f1a7231c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Admin\.gradle\caches\8.13\transforms\53ff2510d239eabf9dad77615f32e745\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\53c8bcd99a0d13c40d5be50fe36ecfc0\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\6707629ac6ec49784e83f2267860a56a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\39f0968bfca43383e89ef8da155741ed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\2bd714e69224e20f0b1801f557967d82\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\d2beb63c0e47ae2172e51187b76aae0d\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -215,6 +216,8 @@ MERGED from [androidx.activity:activity:1.9.3] C:\Users\Admin\.gradle\caches\8.1
 MERGED from [androidx.activity:activity:1.9.3] C:\Users\Admin\.gradle\caches\8.13\transforms\38eb606ef89545093fa6a1312b697d15\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Admin\.gradle\caches\8.13\transforms\3786f574b22e0a29be80ed69585c31f3\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\Admin\.gradle\caches\8.13\transforms\3786f574b22e0a29be80ed69585c31f3\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\855136d2a484c5b4e264807c550922d2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\855136d2a484c5b4e264807c550922d2\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Admin\.gradle\caches\8.13\transforms\7c693d2513a3f3a9d905d95e3879af2d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\Admin\.gradle\caches\8.13\transforms\7c693d2513a3f3a9d905d95e3879af2d\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\Admin\.gradle\caches\8.13\transforms\8ba6cd823b3dc46b169c89da8a6f2b83\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
@@ -273,6 +276,8 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.g
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Admin\.gradle\caches\8.13\transforms\26de5476dff7e395bbe69bdb20d23666\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\54566474913a0e798314a966c705f247\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\54566474913a0e798314a966c705f247\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Admin\.gradle\caches\8.13\transforms\a11f1d536b1c6693d33042b54cea18d4\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Admin\.gradle\caches\8.13\transforms\a11f1d536b1c6693d33042b54cea18d4\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Admin\.gradle\caches\8.13\transforms\1be8331f62332cedd1762028f1a7231c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
@@ -283,8 +288,6 @@ MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Admin\.gra
 MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\53c8bcd99a0d13c40d5be50fe36ecfc0\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\6707629ac6ec49784e83f2267860a56a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Admin\.gradle\caches\8.13\transforms\6707629ac6ec49784e83f2267860a56a\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\8.13\transforms\96b564ae506c9465cb87e696dd3858fb\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\39f0968bfca43383e89ef8da155741ed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\39f0968bfca43383e89ef8da155741ed\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin\.gradle\caches\8.13\transforms\2bd714e69224e20f0b1801f557967d82\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41

@@ -1,10 +1,12 @@
 package com.aber.app.ui
 
+import androidx.appcompat.app.AppCompatDelegate
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -67,6 +69,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         refresh()
+
+        binding.swipeRefresh.setOnRefreshListener {
+            binding.swipeRefresh.postDelayed({
+                refresh()
+                binding.swipeRefresh.isRefreshing = false
+                Toast.makeText(this, "Posts updated", Toast.LENGTH_SHORT).show()
+            }, 800)
+        }
     }
 
     private fun refresh() {
@@ -88,6 +98,14 @@ class MainActivity : AppCompatActivity() {
                     .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
             )
             finish()
+            return true
+        }
+        if (item.itemId == R.id.action_dark_mode) {
+            val isDark = AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES
+            AppCompatDelegate.setDefaultNightMode(
+                if (isDark) AppCompatDelegate.MODE_NIGHT_NO
+                else AppCompatDelegate.MODE_NIGHT_YES
+            )
             return true
         }
         return super.onOptionsItemSelected(item)
