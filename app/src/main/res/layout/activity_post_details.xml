@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/tvPoster"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textStyle="bold" android:textSize="18sp" />
+
+        <ImageView android:id="@+id/ivPhoto"
+            android:layout_width="match_parent" android:layout_height="250dp"
+            android:layout_marginTop="12dp" android:scaleType="centerCrop" />
+
+        <TextView android:id="@+id/tvType"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+        <TextView android:id="@+id/tvPlace"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvDate"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvDetails"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+        <TextView android:id="@+id/tvClaim"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" />
+
+        <Button android:id="@+id/btnShare"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:text="Share this post" />
+
+        <Button android:id="@+id/btnCall"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:text="Call poster" />
+    </LinearLayout>
+</ScrollView>

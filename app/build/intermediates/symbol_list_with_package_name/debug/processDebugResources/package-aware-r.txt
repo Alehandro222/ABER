@@ -3246,6 +3246,8 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnCall
+id btnShare
 id btn_login
 id btn_pick
 id btn_signup
@@ -3394,6 +3396,7 @@ id inward
 id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
+id ivPhoto
 id iv_photo
 id iv_preview
 id iv_thumb
@@ -3660,6 +3663,12 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvClaim
+id tvDate
+id tvDetails
+id tvPlace
+id tvPoster
+id tvType
 id tv_badge
 id tv_claim
 id tv_date
@@ -3820,6 +3829,7 @@ layout abc_tooltip
 layout activity_image_search
 layout activity_login
 layout activity_main
+layout activity_post_details
 layout activity_signup
 layout custom_dialog
 layout design_bottom_navigation_item

@@ -1,30 +1,34 @@
 [
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/dialog_reset_password.xml",
-        "source": "com.aber.app-main-40:/layout/dialog_reset_password.xml"
+        "merged": "com.aber.app-mergeDebugResources-37:/layout/activity_post_details.xml",
+        "source": "com.aber.app-main-40:/layout/activity_post_details.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/item_post.xml",
-        "source": "com.aber.app-main-40:/layout/item_post.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\dialog_reset_password.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\dialog_reset_password.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/activity_signup.xml",
-        "source": "com.aber.app-main-40:/layout/activity_signup.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/activity_login.xml",
-        "source": "com.aber.app-main-40:/layout/activity_login.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/item_match.xml",
-        "source": "com.aber.app-main-40:/layout/item_match.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\item_post.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\item_post.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/activity_image_search.xml",
-        "source": "com.aber.app-main-40:/layout/activity_image_search.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\activity_signup.xml"
     },
     {
-        "merged": "com.aber.app-mergeDebugResources-37:/layout/activity_main.xml",
-        "source": "com.aber.app-main-40:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\activity_image_search.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\activity_image_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-mergeDebugResources-37:\\layout\\item_match.xml",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.13\\com.aber.app-main-40:\\layout\\item_match.xml"
     }
 ]

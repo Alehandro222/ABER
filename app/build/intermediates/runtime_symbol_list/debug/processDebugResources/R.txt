@@ -3245,6 +3245,8 @@ int id bounce 0x7f080061
 int id bounceBoth 0x7f080062
 int id bounceEnd 0x7f080063
 int id bounceStart 0x7f080064
+int id btnCall 0x7f08022d
+int id btnShare 0x7f08022e
 int id btn_login 0x7f080065
 int id btn_pick 0x7f080066
 int id btn_signup 0x7f080067
@@ -3393,6 +3395,7 @@ int id inward 0x7f0800f5
 int id is_pooling_container_tag 0x7f0800f6
 int id italic 0x7f0800f7
 int id item_touch_helper_previous_elevation 0x7f0800f8
+int id ivPhoto 0x7f08022f
 int id iv_photo 0x7f0800f9
 int id iv_preview 0x7f0800fa
 int id iv_thumb 0x7f0800fb
@@ -3659,6 +3662,12 @@ int id transition_position 0x7f0801ff
 int id transition_scene_layoutid_cache 0x7f080200
 int id transition_transform 0x7f080201
 int id triangle 0x7f080202
+int id tvClaim 0x7f080230
+int id tvDate 0x7f080231
+int id tvDetails 0x7f080232
+int id tvPlace 0x7f080233
+int id tvPoster 0x7f080234
+int id tvType 0x7f080235
 int id tv_badge 0x7f080203
 int id tv_claim 0x7f080204
 int id tv_date 0x7f080205
@@ -3819,6 +3828,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_image_search 0x7f0b001c
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e
+int layout activity_post_details 0x7f0b0072
 int layout activity_signup 0x7f0b001f
 int layout custom_dialog 0x7f0b0020
 int layout design_bottom_navigation_item 0x7f0b0021

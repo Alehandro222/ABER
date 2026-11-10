@@ -16,6 +16,8 @@ drawable sample_phone
 drawable sample_tumbler
 drawable sample_wallet
 id action_logout
+id btnCall
+id btnShare
 id btn_login
 id btn_pick
 id btn_signup
@@ -30,6 +32,7 @@ id et_reset_identifier
 id et_reset_password
 id et_search
 id fab_image_search
+id ivPhoto
 id iv_photo
 id iv_preview
 id iv_thumb
@@ -46,6 +49,12 @@ id til_password
 id til_reset_identifier
 id til_reset_password
 id toolbar
+id tvClaim
+id tvDate
+id tvDetails
+id tvPlace
+id tvPoster
+id tvType
 id tv_badge
 id tv_claim
 id tv_date
@@ -67,6 +76,7 @@ id tv_type
 layout activity_image_search
 layout activity_login
 layout activity_main
+layout activity_post_details
 layout activity_signup
 layout dialog_reset_password
 layout item_match

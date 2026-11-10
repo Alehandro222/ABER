@@ -1,5 +1,6 @@
 package com.aber.app.ui
 
+import com.aber.app.PostDetailsActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,7 @@ import com.aber.app.R
 import com.aber.app.data.Post
 import com.aber.app.data.PostType
 import com.aber.app.databinding.ItemPostBinding
+import android.content.Intent
 
 /** Shows a list of [Post]s as cards. A RecyclerView adapter creates one card per row and reuses them while scrolling. */
 class PostAdapter : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
@@ -35,6 +37,21 @@ class PostAdapter : RecyclerView.Adapter<PostAdapter.PostViewHolder>() {
 
         fun bind(post: Post) {
             val isLost = post.type == PostType.LOST
+
+            binding.root.setOnClickListener {
+                val context = binding.root.context
+                val intent = Intent(context, PostDetailsActivity::class.java).apply {
+                    putExtra("poster", post.poster)
+                    putExtra("type", post.type.name)
+                    putExtra("place", post.place)
+                    putExtra("date", post.date)
+                    putExtra("details", post.details)
+                    putExtra("claim", "Claim at the guard's office")
+                    putExtra("contact", "09123456789")
+                    putExtra("imageRes", post.imageRes)
+                }
+                context.startActivity(intent)
+        }
 
             binding.tvPoster.text = post.poster
             binding.tvTime.text = post.postedAgo

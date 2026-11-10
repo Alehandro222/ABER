@@ -46,6 +46,9 @@
             android:name="com.aber.app.ui.ImageSearchActivity"
             android:exported="false"
             android:parentActivityName="com.aber.app.ui.MainActivity" />
+        <activity
+            android:name="com.aber.app.PostDetailsActivity"
+            android:exported="false" />
 
         <service
             android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
