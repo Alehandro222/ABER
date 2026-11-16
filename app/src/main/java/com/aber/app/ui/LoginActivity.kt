@@ -106,6 +106,8 @@ class LoginActivity : AppCompatActivity() {
                 }
                 if (store.resetPassword(identifier, newPassword)) {
                     dialog.dismiss()
+                    // Toast: a small pop-up message that disappears by itself (no buttons).
+                    // LENGTH_LONG keeps it on screen about 3.5 seconds instead of 2.
                     Toast.makeText(this, R.string.reset_done, Toast.LENGTH_LONG).show()
                 } else {
                     dialogBinding.tilResetIdentifier.error = getString(R.string.err_no_account)

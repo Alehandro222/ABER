@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doAfterTextChanged
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -15,6 +14,7 @@ import com.aber.app.data.PostRepository
 import com.aber.app.data.PostType
 import com.aber.app.data.UserStore
 import com.aber.app.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.tabs.TabLayout
 
 /** Home screen: LOST / FOUND tabs, a text filter and a button that opens Image Search. */
@@ -74,7 +74,12 @@ class MainActivity : AppCompatActivity() {
             binding.swipeRefresh.postDelayed({
                 refresh()
                 binding.swipeRefresh.isRefreshing = false
-                Toast.makeText(this, "Posts updated", Toast.LENGTH_SHORT).show()
+                // Snackbar: a message bar that slides up from the bottom of the screen.
+                // Unlike a Toast it is attached to a view, can have an action button
+                // ("OK" here), and the user can dismiss it.
+                Snackbar.make(binding.root, "Posts updated", Snackbar.LENGTH_LONG)
+                    .setAction("OK") { /* tapping OK just closes the Snackbar */ }
+                    .show()
             }, 800)
         }
     }
